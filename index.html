@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancy Code Sorter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <section class="sort-section">
+            <h2>Data Sorter 9000</h2>
+            <label for="dataInputNumbers">Enter numbers (comma-separated):</label>
+            <textarea id="dataInputNumbers" rows="4" cols="50"></textarea>
+            <button onclick="randomizeDataNumbers()">Randomize Numbers</button>
+            <button onclick="sortDataNumbers()">Sort Numbers</button>
+            <div id="resultAreaNumbers" class="result-area"></div>
+        </section>
+
+        <section class="sort-section">
+            <h2>Name Sortotron</h2>
+            <label for="dataInputNames">Enter names (comma-separated):</label>
+            <textarea id="dataInputNames" rows="4" cols="50"></textarea>
+            <button onclick="randomizeDataNames()">Randomize Names</button>
+            <button onclick="sortDataNames()">Sort Names</button>
+            <div id="resultAreaNames" class="result-area"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
